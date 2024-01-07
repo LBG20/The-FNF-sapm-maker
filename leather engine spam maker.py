@@ -20,13 +20,13 @@ for _ in range(1):
             print("[", a, ",", b, ",", "0", ",", "0", ","'"', note, '"', "]", sep="", end="", file=f)
             print(' '.join(list1), sep="", end="", file=f)
             list1 = [""]
-            if b <= 3:
+            if b <= b1:
                 b = int(b + 1)
             else:
                 b = int(0)
         else:
             print("[", a, ",", b, ",", "0", ",", "0", ","'"', note, '"', "]", ",", sep="", end="", file=f)
-            if b <= 3:
+            if b <= b1:
                 b = int(b + 1)
             else:
                 b = int(0)
