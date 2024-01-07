@@ -4,9 +4,9 @@ for _ in range(1):
     a = -1
     b = int(0)
     c = int(0)
-    BPM = int(input("请输入歌曲BPM(只能填数字否则报错):"))
+    BPM = int(input("请输入歌曲BPM(只能填数字否则报错):"))#useless
     a1 = int(input("请输入歌曲总毫秒数(只能填数字否则报错):"))
-    section = BPM*a1/240
+    section = BPM*a1/240#useless
     b1 = int(input("请输入歌曲总key数(只能填数字否则报错):"))
     b1 = b1-1
     note = str(input("请输入使用的箭头:"))
